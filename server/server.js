@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Document = require("./Document");
 
-const MONGO_URL='mongodb+srv://shaquibkhan:Rdxrdx10@cluster0.cxcv69j.mongodb.net/e-commerce?'
+
 mongoose.connect(MONGO_URL)
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("Could not connect to MongoDB", err));
